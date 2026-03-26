@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co-Curricular & Extracurricular Activities | Bushra School Tiruvallur</title>
+    <meta name="description"
+        content="Discover vibrant co-curricular activities at Bushra School in Tiruvallur: Karate, Silambam, Arts & Crafts, Abacus, Moral Classes, and more for holistic development.">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="main-header">
+        <div class="container header-container">
+            <!-- Left: Logo -->
+            <a href="index.html" class="logo-container">
+                <img src="assets/images/favicon.png" alt="Bushra School Logo">
+                <span class="logo-text">Bushra<br><span class="text-small text-secondary"
+                        style="font-size: 11px; line-height: 1; font-weight: 600; letter-spacing: 0.5px;">Matriculation School</span></span>
+            </a>
+
+            <!-- Center: Desktop Nav -->
+            <ul class="nav-menu desktop-only">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+                <li><a href="activities.html" class="nav-link active">Activities</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Right: CTA & Mobile Toggle -->
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <div class="header-cta desktop-only">
+                    <a href="contact.html" class="btn btn-primary" style="padding: 10px 24px; font-size: 15px;">Apply Now</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="programs.html" class="nav-link">Programs</a></li>
+            <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+            <li><a href="activities.html" class="nav-link active">Activities</a></li>
+            <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary" style="width: 100%; margin-top: auto; padding: 16px; font-size: 18px;">Apply Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <main>
+    <section class="section hero-parallax" style="position: relative; z-index: 1; overflow: hidden; padding-top: 100px; padding-bottom: var(--space-5); background-image: url('assets/images/img_5d3f6430.jpg'); color: var(--white); text-align: center; border-radius: 0 0 40px 40px;">
+        <div class="hero-overlay" style="background: linear-gradient(135deg, rgba(15,61,62,0.96) 0%, rgba(31,122,99,0.9) 100%);"></div>
+        <div class="bg-pattern" style="position: absolute; top:0; left:0; width:100%; height:100%; z-index: -1; opacity: 0.15;"></div>
+
+        <div class="container relative z-10" style="max-width: 1000px;">
+            <div class="section-header text-center">
+                <div class="badge floating-shape text-small animate-on-scroll fade-down" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(10px); color: var(--white);">
+                    <i class="fa-solid fa-sparkles"></i> Vibrant Student Life
+                </div>
+
+                <h1 class="hero-heading animate-on-scroll fade-up delay-100" style="color: var(--white); margin-bottom: var(--space-3); font-size: clamp(44px, 7vw, 72px); font-weight: 800; letter-spacing: -2px; text-shadow: 0 10px 30px rgba(0,0,0,0.3); line-height: 1.05;">
+                    Co-Curricular <span style="color: var(--accent-yellow);">Activities</span></h1>
+            </div>
+
+            <p class="subheading animate-on-scroll fade-up delay-200" style="margin: 0 auto var(--space-4) auto; color: rgba(255,255,255,0.95); font-weight: 400; font-size: clamp(18px, 2.2vw, 24px); line-height: 1.6; max-width: 800px;">
+                Holistic development going profoundly beyond textbooks to nurture <span style="font-weight: 700; color: var(--white);">creativity</span>, <span style="font-weight: 700; color: var(--white);">agility</span>, and <span style="font-weight: 700; color: var(--white);">essential life skills</span>.</p>
+
+            <!-- Activity Highlights -->
+            <div class="hero-highlight-indicators animate-on-scroll fade-up delay-300">
+                <span class="indicator-tag"><i class="fa-solid fa-hand-fist"></i> Martial Arts</span>
+                <span class="indicator-tag"><i class="fa-solid fa-palette"></i> Creative Arts</span>
+                <span class="indicator-tag"><i class="fa-solid fa-brain"></i> Enrichment</span>
+                <span class="indicator-tag"><i class="fa-solid fa-star"></i> Leadership</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-btns-container animate-on-scroll fade-up delay-400">
+                <a href="contact.html" class="btn btn-primary" style="padding: 16px 32px; font-size: 17px; background: var(--accent-yellow); color: var(--text-primary); border: none; min-width: 200px;">Apply for Activities</a>
+                <a href="programs.html" class="btn btn-outline-glass" style="padding: 16px 32px; font-size: 17px; border: 2px solid rgba(255,255,255,0.4); color: var(--white); min-width: 200px;">Explore Programs</a>
+            </div>
+        </div>
+    </section>
+
+        <div class="container" style="max-width: 900px;">
+            <div class="section-header text-center animate-on-scroll fade-up">
+                <div class="badge"><i class="fa-solid fa-graduation-cap"></i> Holistic Education</div>
+                <h2 class="section-heading">Learning Beyond the Classroom</h2>
+                <p class="subheading" style="margin: 0 auto;">At Bushra Matriculation School, co-curricular activities play a foundational role in shaping students through teamwork, discipline, and leadership.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Groupings -->
+
+    <!-- 1. Martial Arts & Discipline -->
+    <section class="section bg-white">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll fade-up">
+                <div class="badge"><i class="fa-solid fa-hand-fist"></i> Physical Agility</div>
+                <h2 class="section-heading">Martial Arts & Discipline</h2>
+                <p class="subheading" style="margin: 0 auto;">Building self-defense and focus through professional training.</p>
+            </div>
+
+            <div class="grid" style="gap: var(--space-4);">
+                <div class="col-6 animate-on-scroll fade-up delay-100">
+                    <a href="karate.html" class="activity-overlay-card">
+                        <img src="assets/images/img_6a03d0a2.jpg" class="card-bg" alt="Karate training at Bushra School">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Karate</h3>
+                            <p class="card-description">Master tactical self-defense and mental focus skills.</p>
+                            <div class="card-tags">
+                                <span class="card-tag">Discipline</span>
+                                <span class="card-tag">Physical Fitness</span>
+                                <span class="card-tag">Self-Defense</span>
+                            </div>
+                            <span class="card-btn">Explore Activity</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 animate-on-scroll fade-up delay-200">
+                    <a href="silambam.html" class="activity-overlay-card">
+                        <img src="assets/images/img_470b71d7.jpg" class="card-bg" alt="Silambam training at Bushra School">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Silambam</h3>
+                            <p class="card-description">Elite traditional agility art and endurance training.</p>
+                            <div class="card-tags">
+                                <span class="card-tag">Traditional Art</span>
+                                <span class="card-tag">Agility</span>
+                                <span class="card-tag">Stamina</span>
+                            </div>
+                            <span class="card-btn">Explore Activity</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-wave-separator" style="background: var(--bg-light);">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: absolute; bottom: 0; width: 100%; height: 40px; fill: var(--bg-light);">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+        </svg>
+    </div>
+
+    <!-- 2. Creative Expression -->
+    <section class="section bg-light" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll fade-up">
+                <div class="badge"><i class="fa-solid fa-palette"></i> Arts & Culture</div>
+                <h2 class="section-heading">Creative Expression</h2>
+                <p class="subheading" style="margin: 0 auto;">Unleashing boundless imagination through diverse art forms.</p>
+            </div>
+
+            <div class="grid">
+                <div class="col-8 animate-on-scroll fade-up delay-100" style="grid-column: 3 / span 8;">
+                    <a href="art-craft.html" class="activity-overlay-card">
+                        <img src="assets/images/img_fbd286e0.jpg" class="card-bg" alt="Art & Craft at Bushra School">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Art & Craft</h3>
+                            <p class="card-description">Exploration of colors, patterns, and creative construction.</p>
+                            <div class="card-tags">
+                                <span class="card-tag">Creativity</span>
+                                <span class="card-tag">Fine Motor Skills</span>
+                                <span class="card-tag">Expression</span>
+                            </div>
+                            <span class="card-btn">Explore Activity</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-wave-separator" style="background: var(--white);">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: absolute; bottom: 0; width: 100%; height: 40px; fill: var(--white);">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+        </svg>
+    </div>
+
+    <!-- 3. Academic Enrichment -->
+    <section class="section bg-white" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll fade-up">
+                <div class="badge"><i class="fa-solid fa-brain"></i> Mental Mastery</div>
+                <h2 class="section-heading">Academic Enrichment</h2>
+                <p class="subheading" style="margin: 0 auto;">Sharpening mental agility and multilingual fluency.</p>
+            </div>
+
+            <div class="grid" style="gap: 32px;">
+                <div class="col-6 animate-on-scroll fade-up delay-100">
+                    <a href="abacus.html" class="activity-overlay-card">
+                        <img src="assets/images/img_427017fe.jpg" class="card-bg" alt="Abacus learning at Bushra School">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Abacus</h3>
+                            <p class="card-description">High-speed mental calculation and concentration training.</p>
+                            <div class="card-tags">
+                                <span class="card-tag">Logical Thinking</span>
+                                <span class="card-tag">Speed</span>
+                                <span class="card-tag">Concentration</span>
+                            </div>
+                            <span class="card-btn">Explore Activity</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 animate-on-scroll fade-up delay-200">
+                    <a href="hindi-classes.html" class="activity-overlay-card">
+                        <img src="assets/images/img_fefc1332.jpg" class="card-bg" alt="Hindi classes at Bushra School">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Hindi Classes</h3>
+                            <p class="card-description">Comprehensive multilingual exposure for future readiness.</p>
+                            <div class="card-tags">
+                                <span class="card-tag">Multilingual</span>
+                                <span class="card-tag">Academic</span>
+                                <span class="card-tag">Communication</span>
+                            </div>
+                            <span class="card-btn">Explore Activity</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-wave-separator" style="background: var(--bg-light);">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: absolute; bottom: 0; width: 100%; height: 40px; fill: var(--bg-light);">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+        </svg>
+    </div>
+
+    <!-- 4. Values & Character -->
+    <section class="section bg-light" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll fade-up">
+                <div class="badge"><i class="fa-solid fa-hands-holding-child"></i> Ethics & Growth</div>
+                <h2 class="section-heading">Values & Character</h2>
+                <p class="subheading" style="margin: 0 auto;">Imparting strong ethics and spiritual growth.</p>
+            </div>
+
+            <div class="grid" style="gap: 32px;">
+                <div class="col-6 animate-on-scroll fade-up delay-100">
+                    <a href="moral-classes.html" class="activity-overlay-card">
+                        <img src="assets/images/img_f33258e4.jpg" class="card-bg" alt="Moral classes at Bushra School">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Moral Classes</h3>
+                            <p class="card-description">Nurturing a strong moral compass and core ethical values.</p>
+                            <div class="card-tags">
+                                <span class="card-tag">Ethics</span>
+                                <span class="card-tag">Character</span>
+                                <span class="card-tag">Values</span>
+                            </div>
+                            <span class="card-btn">Explore Activity</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 animate-on-scroll fade-up delay-200">
+                    <a href="hifz-classes.html" class="activity-overlay-card">
+                        <img src="assets/images/img_f5b65467.jpg" class="card-bg" alt="Hifz classes at Bushra School">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Hifz Classes</h3>
+                            <p class="card-description">Disciplined memorization and profound spiritual focus.</p>
+                            <div class="card-tags">
+                                <span class="card-tag">Spiritual</span>
+                                <span class="card-tag">Discipline</span>
+                                <span class="card-tag">Memory</span>
+                            </div>
+                            <span class="card-btn">Explore Activity</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Events & Experiences -->
+    <section class="section bg-white" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
+        <div class="container">
+            <div class="section-header animate-on-scroll fade-right" style="margin-bottom: var(--space-5);">
+                <div class="badge"><i class="fa-solid fa-calendar-star"></i> School Experiences</div>
+                <h2 class="section-heading" style="margin-bottom: 0;">Events & Experiences</h2>
+                <p class="subheading" style="max-width: 600px;">Discover unforgettable moments and vibrant celebrations that bring our entire school community together.</p>
+            </div>
+
+            <div class="grid" style="gap: 30px;">
+                <a href="cultural-programs.html" class="col-4 interactive-card animate-on-scroll fade-up delay-100" style="text-decoration: none; color: inherit; border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-soft); transition: all 0.4s ease; display: block; background: var(--white); position: relative; border: 1px solid rgba(0,0,0,0.05);">
+                    <div class="event-category-tag">Cultural Program</div>
+                    <div style="height: 250px; overflow: hidden; position: relative;">
+                        <img src="assets/images/img_9e3b4d7f.jpg" alt="Cultural programs" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;" class="card-img-zoom" loading="lazy">
+                        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%);"></div>
+                    </div>
+                    <div style="padding: 28px;">
+                        <h4 style="font-size: 22px; margin-bottom: 12px; font-weight: 700;">Cultural Programs</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 15px; line-height: 1.6;">Joyful celebrations that help students <span class="highlight-keyword">re-connect</span> with their heritage.</p>
+                        <div style="display: flex; align-items: center; gap: 10px; color: var(--primary-green); font-weight: 700; font-size: 15px;">
+                            View Gallery <i class="fa-solid fa-circle-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="annual-day.html" class="col-4 interactive-card animate-on-scroll fade-up delay-200" style="text-decoration: none; color: inherit; border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-soft); transition: all 0.4s ease; display: block; background: var(--white); position: relative; border: 1px solid rgba(0,0,0,0.05);">
+                    <div class="event-category-tag">Annual Celebration</div>
+                    <div style="height: 250px; overflow: hidden; position: relative;">
+                        <img src="assets/images/img_0b6f7b8d.jpg" alt="Annual Day" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;" class="card-img-zoom" loading="lazy">
+                        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%);"></div>
+                    </div>
+                    <div style="padding: 28px;">
+                        <h4 style="font-size: 22px; margin-bottom: 12px; font-weight: 700;">Annual Day</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 15px; line-height: 1.6;">A mega event showcasing <span class="highlight-keyword">student talent</span> and academic achievements.</p>
+                        <div style="display: flex; align-items: center; gap: 10px; color: var(--primary-green); font-weight: 700; font-size: 15px;">
+                            View Details <i class="fa-solid fa-circle-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="field-trips.html" class="col-4 interactive-card animate-on-scroll fade-up delay-300" style="text-decoration: none; color: inherit; border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-soft); transition: all 0.4s ease; display: block; background: var(--white); position: relative; border: 1px solid rgba(0,0,0,0.05);">
+                    <div class="event-category-tag">Outdoor Learning</div>
+                    <div style="height: 250px; overflow: hidden; position: relative;">
+                        <img src="assets/images/img_2b8cd0ef.jpg" alt="Field trips" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;" class="card-img-zoom" loading="lazy">
+                        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%);"></div>
+                    </div>
+                    <div style="padding: 28px;">
+                        <h4 style="font-size: 22px; margin-bottom: 12px; font-weight: 700;">Field Trips</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 15px; line-height: 1.6;"><span class="highlight-keyword">Experiential learning</span> journeys that bring lessons to life in the real world.</p>
+                        <div style="display: flex; align-items: center; gap: 10px; color: var(--primary-green); font-weight: 700; font-size: 15px;">
+                            Learn More <i class="fa-solid fa-circle-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Student Growth & Impact -->
+    <section class="section section-bg-light" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll fade-up">
+                <div class="badge"><i class="fa-solid fa-chart-line"></i> Development Impact</div>
+                <h2 class="section-heading">Measuring Incredible Growth</h2>
+                <p class="subheading" style="margin: 0 auto;">Our activities are more than just hobbies; they are critical building blocks for holistic development.</p>
+            </div>
+
+            <div class="grid" style="gap: 30px;">
+                <div class="col-4 animate-on-scroll fade-up delay-100">
+                    <div class="growth-card">
+                        <div class="growth-icon-circle"><i class="fa-solid fa-users-crown"></i></div>
+                        <h4 style="margin-bottom: 12px; font-weight: 700;">Leadership</h4>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6;">Students learn to <span class="highlight-keyword">take initiative</span> and guide peers through complex group projects and performances.</p>
+                    </div>
+                </div>
+                <div class="col-4 animate-on-scroll fade-up delay-200">
+                    <div class="growth-card">
+                        <div class="growth-icon-circle"><i class="fa-solid fa-puzzle-piece"></i></div>
+                        <h4 style="margin-bottom: 12px; font-weight: 700;">Teamwork</h4>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6;">Collaborative projects foster a deep sense of <span class="highlight-keyword">unity</span> and collective achievement across all age groups.</p>
+                    </div>
+                </div>
+                <div class="col-4 animate-on-scroll fade-up delay-300">
+                    <div class="growth-card">
+                        <div class="growth-icon-circle"><i class="fa-solid fa-heart-pulse"></i></div>
+                        <h4 style="margin-bottom: 12px; font-weight: 700;">Physical Health</h4>
+                        <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6;">Martial arts and sports promote <span class="highlight-keyword">discipline</span>, stamina, and a lifelong commitment to fitness of body and mind.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. How Activities Shape Our Students -->
+    <section class="section bg-white" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
+        <div class="container" style="max-width: 1000px;">
+            <div class="section-header text-center animate-on-scroll fade-up">
+                <div class="badge"><i class="fa-solid fa-child-reaching"></i> Student Transformation</div>
+                <h2 class="section-heading">How Activities Shape Students</h2>
+                <p class="subheading" style="margin: 0 auto;">Our comprehensive approach ensures every child finds their unique voice and potential through diverse engagement.</p>
+            </div>
+
+            <div class="grid" style="gap: 32px;">
+                <div class="col-6 animate-on-scroll fade-right">
+                    <div class="tile interactive-card" style="padding: 32px; height: 100%; border-radius: 20px; border-left: 6px solid var(--primary-green); background: var(--bg-light);">
+                        <div class="icon-container icon-gradient-1" style="width: 54px; height: 54px; margin-bottom: 24px;"><i class="fa-solid fa-rocket-launch"></i></div>
+                        <h4 style="font-size: 24px; margin-bottom: 16px; font-weight: 700;">Confidence Building</h4>
+                        <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.7; margin-bottom: 0;">Regular performances and demonstrations help students <span class="highlight-keyword">overcome stage freight</span> and speak with unwavering authority.</p>
+                    </div>
+                </div>
+                <div class="col-6 animate-on-scroll fade-left">
+                    <div class="tile interactive-card" style="padding: 32px; height: 100%; border-radius: 20px; border-left: 6px solid var(--accent-yellow); background: var(--bg-light);">
+                        <div class="icon-container icon-gradient-2" style="width: 54px; height: 54px; margin-bottom: 24px;"><i class="fa-solid fa-brain-circuit"></i></div>
+                        <h4 style="font-size: 24px; margin-bottom: 16px; font-weight: 700;">Critical Thinking</h4>
+                        <p style="color: var(--text-secondary); font-size: 16px; line-height: 1.7; margin-bottom: 0;">Complex tasks like abacus and craft projects enhance <span class="highlight-keyword">problem-solving</span> and creative logical thinking skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section" style="padding-top: 100px; padding-bottom: 120px; position: relative; overflow: hidden; background: var(--primary-green); border-radius: 50px 50px 0 0;">
+        <div class="hero-overlay" style="background: radial-gradient(circle at center, rgba(15,61,62,0.6) 0%, rgba(15,61,62,0.95) 100%);"></div>
+        <div class="bg-pattern" style="opacity: 0.1;"></div>
+        
+        <div class="container relative z-10 text-center" style="max-width: 800px;">
+            <div class="badge animate-on-scroll fade-down" style="padding: 8px 20px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(10px); color: var(--white); border-radius: 50px; display: inline-block; margin-bottom: 30px; font-weight: 600;">Shape Their Future</div>
+            <h2 class="animate-on-scroll fade-up" style="color: var(--white); font-size: clamp(36px, 5vw, 54px); margin-bottom: 24px; font-weight: 800; letter-spacing: -1.5px; line-height: 1.1;">Ready to <span style="color: var(--accent-yellow);">Unlock</span> Your Child’s Potential?</h2>
+            <p class="animate-on-scroll fade-up delay-100" style="color: rgba(255,255,255,0.9); font-size: 20px; margin-bottom: 48px; line-height: 1.6;">Join the Bushra community and give your child the <span style="color: var(--white); font-weight: 700;">comprehensive education</span> they truly deserve.</p>
+            <div class="animate-on-scroll fade-up delay-200" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn btn-primary btn-hover-lift" style="padding: 18px 40px; font-size: 18px; background: var(--accent-yellow); color: var(--text-primary); border: none; font-weight: 700;">Apply for Admissions</a>
+                <a href="programs.html" class="btn btn-glass btn-hover-lift" style="padding: 18px 40px; font-size: 18px; border: 2px solid rgba(255,255,255,0.4); color: var(--white); font-weight: 600;">Our Educational Programs</a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top grid">
+                <!-- Col 1: Brand Identity -->
+                <div class="col-3">
+                    <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom: var(--space-2);">
+                        <img src="assets/images/favicon.png" alt="Bushra Logo"
+                            style="height: 80px; object-fit: contain;">
+                        <h4 style="margin-bottom: 0; font-size: 18px; line-height:1.2; font-weight:800;">
+                            Bushra<br>Matriculation School</h4>
+                    </div>
+                    <p class="text-small" style="line-height:1.6; color: #94A3B8; margin-bottom: 0;">Empowering every child with wisdom
+                        and character through our skill-focused ELGA learning methodology.</p>
+
+                </div>
+                <!-- Col 2: Quick Navigation -->
+                <div class="col-3">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Explore More -->
+                <div class="col-3">
+                    <h4>Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html" style="color:var(--accent-yellow);">Apply Now</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4: Contact Info -->
+                <div class="col-3">
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact-list">
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="footer-contact-text">
+                                <span>No.29, Annai Theresa Nagar, Ikkadu Road, Tiruvallur - 602001</span>
+                            </div>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="footer-contact-text">
+                                <a href="tel:+919500519491">+91 95005 19491</a>
+                                <a href="tel:+919944231425" style="display: block; margin-top: 4px;">+91 99442 31425</a>
+                            </div>
+                        </div>
+                                                <div class="footer-contact-item">
+                            <div class="footer-contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="footer-contact-text">
+                                <a href="mailto:admissions@bushraedu.com">admissions@bushraedu.com</a>
+                                <a href="mailto:info@bushraedu.com" style="display: block; margin-top: 4px;">info@bushraedu.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/channel/UCnMpJBSJLvs_iEaozk465-Q" target="_blank"
+                            aria-label="YouTube" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://wa.me/919944231425" target="_blank" aria-label="WhatsApp" class="whatsapp"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/bushranurseryandprimaryschool" target="_blank"
+                            aria-label="Instagram" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p style="margin:0;">&copy; 2026 Bushra Matriculation School. All rights reserved.</p>
+                <p style="margin:0;"><span class="footer-credit">Designed by <a href="https://mrcodershub.com"
+                            target="_blank"
+                            style="color:var(--accent-yellow); text-decoration:none; font-weight:600; transition: color var(--transition-smooth);">MR
+                            CODERS HUB</a></span></p>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 768px) {
+                .footer-bottom {
+                    flex-direction: column;
+                    gap: 12px;
+                    text-align: center;
+                    justify-content: center;
+                }
+
+                .footer-top.grid {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 32px;
+                }
+
+                .footer-top h4::after {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                .footer-top .col-3 {
+                    width: 100% !important;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .footer-top .col-3>div:first-child {
+                    justify-content: center;
+                }
+
+                .footer-links span {
+                    justify-content: center;
+                    text-align: center;
+                }
+
+                .footer-links {
+                    text-align: center;
+                }
+
+                .footer-links a:hover {
+                    padding-left: 0;
+                    transform: translateY(-2px);
+                }
+
+                .footer-links a::before {
+                    display: none;
+                }
+
+                .social-icons {
+                    justify-content: center;
+                }
+
+                .footer-brand-divider {
+                    margin: 16px auto;
+                }
+            }
+        </style>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919944231425?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20Bushra%20Nursery%20and%20Primary%20School" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+      
+    <script nonce="xhAXzvfUeZZlRuk7LoaznA">
+      function onEmbedLoad() {
+        initEmbed([null,null,null,null,null,[[[2,"categorical-search-results-injection",null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,11,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,1]]]],null,null,[[null,"No.29, Annai Theresa Nagar, Ikkadu Road, Tiruvallur - 602001",null,null,[[["4202581179525274085","9716597662797974970"],"/g/11kr6q2qkr",null,[131437531,799088956],null,null,null,null,null,null,null,null,null,null,"gcid:educational_institution"],[["4202579833227778825","2206736665725014473"],"/g/1hc1ykttr",null,[131382612,799075200],null,null,null,null,null,null,null,null,null,null,"gcid:government_office"],[["4202581474628332679","2807720878049078200"],"/g/11fct899ts",null,[131413629,799081930],null,null,null,null,null,null,null,null,null,null,"gcid:university"],[["4202580197408543743","11208053108837870850"],"/g/11g8lg92kb",null,[131435047,798944946],null,null,null,null,null,null,null,null,null,null,"gcid:government_office"],[["4202581452732474165","6454401525298802869"],"/g/11nchzx0t0",null,[131528272,799184021],null,null,null,null,null,null,null,null,null,null,"gcid:hospital"],[["4202525823481151489","1188060964042886588"],"/g/11cjj13m63",null,[131306954,799105519],null,null,null,null,null,null,null,null,null,null,"gcid:hospital"],[["4202579833097970875","8778819796149033877"],"/g/11fzbjfkqw",null,[131383334,799066705],null,null,null,null,null,null,null,null,null,null,"gcid:registration_office"],[["4202579845354485643","414292579936021063"],"/g/1tgbz5mb",null,[131446013,799091690],null,null,null,null,null,null,null,null,null,null,"gcid:hospital"],[["4202580832189862713","15853390055098743988"],"/g/11ygg447j0",null,[131308175,799094728],null,null,null,null,null,null,null,null,null,null,"gcid:physiotherapy_center"],[["4202568432880109859","8961911721970438111"],"/g/11h128g655",null,[131607630,799246881],null,null,null,null,null,null,null,null,null,null,"gcid:hospital"]],3,null,1,null,null,null,null,[[],0.1556451916694641,0.117999903857708],null,null,null,1]]],null,["en_US"],[null,null,null,"/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204"],null,null,null,null,null,null,null,null,"uh6xafmQKbGZ4-EP8oCjsAc",null,null,null,[[[15541.05625403645,79.90959135,13.1457292],[0,0,0],null,13.10000038146973],null,null,null,null,["No.29, Annai Theresa Nagar, Ikkadu Road, Tiruvallur - 602001"]],null,null,null,0,null,null,null,null,null,null,[1]]);
+      }
+      function onApiLoad() {
+        var embed = document.createElement('script');
+        embed.src = "https://maps.gstatic.com/maps-api-v3/embed/js/64/3a/init_embed.js";
+        document.body.appendChild(embed);
+      }
+    </script>
+    <link rel="preload" href="https://maps.gstatic.com/maps-api-v3/embed/js/64/3a/init_embed.js" nonce="xhAXzvfUeZZlRuk7LoaznA" as="script" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;paint_origin=&amp;libraries=geometry,search&amp;v=weekly&amp;loading=async&amp;language=en_US&amp;callback=onApiLoad" nonce="xhAXzvfUeZZlRuk7LoaznA" async defer></script>
+  </body>
+</html>

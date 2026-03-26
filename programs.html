@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Programs: Nursery to Grade 8 | Bushra School</title>
+    <meta name="description"
+        content="Explore our academic programs from Nursery, LKG, UKG to Secondary (Grade 8). Experience the innovative ELGA learning methodology at Bushra Matriculation School.">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="main-header">
+        <div class="container header-container">
+            <!-- Left: Logo -->
+            <a href="index.html" class="logo-container">
+                <img src="assets/images/favicon.png" alt="Bushra School Logo">
+                <span class="logo-text">Bushra<br><span class="text-small text-secondary"
+                        style="font-size: 11px; line-height: 1; font-weight: 600; letter-spacing: 0.5px;">Matriculation
+                        School</span></span>
+            </a>
+
+            <!-- Center: Desktop Nav -->
+            <ul class="nav-menu desktop-only">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="programs.html" class="nav-link active">Programs</a></li>
+                <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+                <li><a href="activities.html" class="nav-link">Activities</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Right: CTA & Mobile Toggle -->
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <div class="header-cta desktop-only">
+                    <a href="contact.html" class="btn btn-primary" style="padding: 10px 24px; font-size: 15px;">Apply
+                        Now</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="programs.html" class="nav-link active">Programs</a></li>
+            <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+            <li><a href="activities.html" class="nav-link">Activities</a></li>
+            <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary"
+            style="width: 100%; margin-top: auto; padding: 16px; font-size: 18px;">Apply Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="section hero-parallax"
+            style="position: relative; z-index: 1; overflow: hidden; padding-top: 100px; padding-bottom: var(--space-4); background-image: url('assets/images/img_e316d270.jpg'); color: var(--white); text-align: center; background-position: center; background-size: cover;">
+            <div class="hero-overlay"
+                style="background: linear-gradient(to bottom, rgba(15,30,40,0.8) 0%, rgba(15,30,40,0.6) 100%); position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+            </div>
+
+            <div class="container relative z-10">
+                <div class="section-header text-center">
+                    <div class="badge floating-shape text-small"
+                        style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);">
+                        <i class="fa-solid fa-medal"></i> LEAD Certified School - Ranked 7th (2023-24)
+                    </div>
+
+                    <h1 class="hero-heading animate-on-scroll fade-down delay-100"
+                        style="color: var(--white); margin-bottom: var(--space-3); font-size: var(--text-hero); text-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+                        Academic Programs</h1>
+                </div>
+
+                <p class="subheading animate-on-scroll fade-up delay-200"
+                    style="max-width: 700px; margin: 0 auto; color: var(--white); font-weight: 400; opacity: 0.95; font-size: 20px;">
+                    A carefully structured curriculum designed for maximum impact at every crucial developmental stage.
+                </p>
+
+                <div class="animate-on-scroll fade-up delay-300" style="margin-top: var(--space-4);">
+                    <a href="#framework" class="btn btn-primary"
+                        style="box-shadow: 0 10px 30px rgba(30,142,90,0.3);">Explore Our Approach <i
+                            class="fa-solid fa-arrow-down" style="margin-left: 8px;"></i></a>
+                </div>
+            </div>
+        </section>
+
+                <div class="section-header text-center animate-on-scroll fade-up">
+                    <div class="badge"><i class="fa-solid fa-layer-group"></i> Academic Blocks</div>
+                    <h2 class="section-heading">Our Teaching Framework</h2>
+                </div>
+                <div class="grid" style="margin-top: var(--space-4); gap: var(--space-4); align-items: stretch;">
+                    <div class="col-3 card animate-on-scroll fade-up delay-100"
+                        style="border-top: 4px solid var(--primary-green); padding: var(--space-4) var(--space-3); display: flex; flex-direction: column; cursor: pointer;"
+                        onclick="document.getElementById('nursery').scrollIntoView({behavior: 'smooth'})">
+                        <div class="icon-container"
+                            style="margin: 0 auto var(--space-2) auto; width: 64px; height: 64px; font-size: 28px; background: rgba(30,142,90,0.1); color: var(--primary-green); display: flex; align-items: center; justify-content: center; border-radius: 12px;">
+                            <i class="fa-solid fa-shapes"></i>
+                        </div>
+                        <h4 class="card-heading" style="font-size: 22px; margin-bottom: 8px;">Nursery</h4>
+                        <span class="text-small text-secondary" style="font-weight: 500;">Early Years Foundation</span>
+                    </div>
+
+                    <div class="col-3 card animate-on-scroll fade-up delay-200"
+                        style="border-top: 4px solid var(--accent-yellow); padding: var(--space-4) var(--space-3); display: flex; flex-direction: column; cursor: pointer;"
+                        onclick="document.getElementById('lkg-ukg').scrollIntoView({behavior: 'smooth'})">
+                        <div class="icon-container"
+                            style="margin: 0 auto var(--space-2) auto; width: 64px; height: 64px; font-size: 28px; background: rgba(245,158,11,0.1); color: var(--accent-yellow); display: flex; align-items: center; justify-content: center; border-radius: 12px;">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <h4 class="card-heading" style="font-size: 22px; margin-bottom: 8px;">LKG & UKG</h4>
+                        <span class="text-small text-secondary" style="font-weight: 500;">Foundational Growth</span>
+                    </div>
+
+                    <div class="col-3 card animate-on-scroll fade-up delay-300"
+                        style="border-top: 4px solid var(--secondary-blue); padding: var(--space-4) var(--space-3); display: flex; flex-direction: column; cursor: pointer;"
+                        onclick="document.getElementById('primary').scrollIntoView({behavior: 'smooth'})">
+                        <div class="icon-container"
+                            style="margin: 0 auto var(--space-2) auto; width: 64px; height: 64px; font-size: 28px; background: rgba(59,130,246,0.1); color: var(--secondary-blue); display: flex; align-items: center; justify-content: center; border-radius: 12px;">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <h4 class="card-heading" style="font-size: 22px; margin-bottom: 8px;">Primary</h4>
+                        <span class="text-small text-secondary" style="font-weight: 500;">Grades 1 - 5</span>
+                    </div>
+
+                    <div class="col-3 card animate-on-scroll fade-up delay-400"
+                        style="border-top: 4px solid var(--accent-orange); padding: var(--space-4) var(--space-3); display: flex; flex-direction: column; cursor: pointer;"
+                        onclick="document.getElementById('secondary').scrollIntoView({behavior: 'smooth'})">
+                        <div class="icon-container"
+                            style="margin: 0 auto var(--space-3) auto; width: 64px; height: 64px; font-size: 28px; background: rgba(234,88,12,0.1); color: var(--accent-orange); display: flex; align-items: center; justify-content: center; border-radius: 12px;">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h4 class="card-heading" style="font-size: 22px; margin-bottom: 8px;">Secondary</h4>
+                        <span class="text-small text-secondary" style="font-weight: 500;">Grades 6 - 8</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alternating Storytelling Blocks -->
+
+        <!-- Nursery (Image Left) -->
+        <section id="nursery" class="section bg-white" style="padding: var(--space-6) 0;">
+            <div class="container grid" style="align-items: center; gap: var(--space-6);">
+                <div class="col-6 animate-on-scroll fade-right delay-100">
+                    <div class="img-hover-zoom"
+                        style="border-radius: var(--radius-img); overflow: hidden; box-shadow: 0 16px 40px rgba(0,0,0,0.08);">
+                        <img src="assets/images/img_e79f52f4.jpg"
+                            alt="Nursery Children engaged in sensory play at Bushra School" class="aspect-4-3"
+                            loading="lazy">
+                    </div>
+                </div>
+
+                <div class="col-6 animate-on-scroll fade-left text-container">
+                    <div class="section-header">
+                        <div class="badge"><i class="fa-solid fa-shapes"></i> Early Years</div>
+                        <h2 class="section-heading">Nursery Program</h2>
+                    </div>
+                    <p class="text-secondary" style="margin-bottom: var(--space-4); font-size: 18px; line-height: 1.7;">
+                        The Nursery years are exceptionally crucial for developing fine motor skills and socio-emotional
+                        awareness. We ensure that every aspect of learning naturally operates as an engaging extension
+                        of
+                        play.
+                    </p>
+
+                    <!-- Feature Chips -->
+                    <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-2);">
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-puzzle-piece"
+                                style="color: var(--primary-green); margin-right: 8px;"></i>
+                            Play Based Learning
+                        </div>
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-volume-high"
+                                style="color: var(--primary-green); margin-right: 8px;"></i>
+                            Phonics Introduction
+                        </div>
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-shapes" style="color: var(--primary-green); margin-right: 8px;"></i>
+                            Sensory Activities
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LKG & UKG (Image Right) -->
+        <section id="lkg-ukg" class="section section-bg-light" style="padding: var(--space-6) 0;">
+            <div class="container grid" style="align-items: center; gap: var(--space-6);">
+                <!-- Content Left -->
+                <div class="col-6 animate-on-scroll fade-right text-container"
+                    style="order: 2; @media(min-width: 768px){ order: 1; }">
+                    <div class="section-header">
+                        <div class="badge"><i class="fa-solid fa-pencil"></i> Kindergarten</div>
+                        <h2 class="section-heading">LKG & UKG</h2>
+                    </div>
+                    <p class="text-secondary" style="margin-bottom: var(--space-4); font-size: 18px; line-height: 1.7;">
+                        Our Lower and Upper Kindergarten programs are meticulously designed to formalize literacy and
+                        numeracy skills while ensuring the child retains their innate curiosity and creative freedom.
+                    </p>
+
+                    <!-- Feature Chips -->
+                    <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-2);">
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-spell-check"
+                                style="color: var(--accent-yellow); margin-right: 8px;"></i>
+                            Vocabulary Building
+                        </div>
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-arrow-up-9-1"
+                                style="color: var(--accent-yellow); margin-right: 8px;"></i>
+                            Number Concepts
+                        </div>
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-book" style="color: var(--accent-yellow); margin-right: 8px;"></i>
+                            Interactive Storytelling
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Right -->
+                <div class="col-6 animate-on-scroll fade-left delay-200"
+                    style="order: 1; @media(min-width: 768px){ order: 2; }">
+                    <div class="img-hover-zoom"
+                        style="border-radius: var(--radius-img); overflow: hidden; box-shadow: 0 16px 40px rgba(0,0,0,0.08);">
+                        <img src="assets/images/img_c36a68cd.jpg"
+                            alt="Kindergarten LKG UKG students learning numbers and vocabulary" class="aspect-4-3"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Primary (Image Left) -->
+        <section id="primary" class="section bg-white" style="padding: var(--space-6) 0;">
+            <div class="container grid" style="align-items: center; gap: var(--space-6);">
+                <!-- Image Left -->
+                <div class="col-6 animate-on-scroll fade-right delay-100">
+                    <div class="img-hover-zoom"
+                        style="border-radius: var(--radius-img); overflow: hidden; box-shadow: 0 16px 40px rgba(0,0,0,0.08);">
+                        <img src="assets/images/img_55d70a1f.jpg"
+                            alt="Primary School students reading and studying core subjects" class="aspect-4-3"
+                            loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Content Right -->
+                <div class="col-6 animate-on-scroll fade-left text-container">
+                    <div class="section-header">
+                        <div class="badge">
+                            <i class="fa-solid fa-book-open"></i> Junior School
+                        </div>
+                        <h2 class="section-heading">Primary (Grades 1 - 5)</h2>
+                    </div>
+                    <p class="text-secondary" style="margin-bottom: var(--space-4); font-size: 18px; line-height: 1.7;">
+                        The primary stage transitions students robustly into core academic subjects utilizing our
+                        award-winning ELGA methodology. This deeply ensures children comprehend concepts fundamentally
+                        rather than resorting to rote memorization.
+                    </p>
+
+                    <!-- Feature Chips -->
+                    <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-2);">
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-atom" style="color: var(--secondary-blue); margin-right: 8px;"></i>
+                            Core
+                            Subjects Matrix
+                        </div>
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-lightbulb"
+                                style="color: var(--secondary-blue); margin-right: 8px;"></i>
+                            Critical Problem Solving
+                        </div>
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-users" style="color: var(--secondary-blue); margin-right: 8px;"></i>
+                            Collaborative Projects
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secondary (Image Right) -->
+        <section id="secondary" class="section section-bg-light" style="padding: var(--space-6) 0;">
+            <div class="container grid" style="align-items: center; gap: var(--space-6);">
+                <!-- Content Left -->
+                <div class="col-6 animate-on-scroll fade-right text-container"
+                    style="order: 2; @media(min-width: 768px){ order: 1; }">
+                    <div class="section-header">
+                        <div class="badge">
+                            <i class="fa-solid fa-graduation-cap"></i> Middle School
+                        </div>
+                        <h2 class="section-heading">Secondary (Grades 6 - 8)</h2>
+                    </div>
+                    <p class="text-secondary" style="margin-bottom: var(--space-4); font-size: 18px; line-height: 1.7;">
+                        Secondary education at Bushra emphasizes advanced subject mastery, intrinsic leadership traits,
+                        and
+                        critical analytical skills. We diligently prepare our brilliant students for impending high
+                        school
+                        challenges and beyond.
+                    </p>
+
+                    <!-- Feature Chips -->
+                    <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-2);">
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-microscope"
+                                style="color: var(--accent-orange); margin-right: 8px;"></i>
+                            Advanced Science Labs
+                        </div>
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-map-location-dot"
+                                style="color: var(--accent-orange); margin-right: 8px;"></i> Global Studies
+                        </div>
+                        <div
+                            style="background: rgba(0,0,0,0.03); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; border: 1px solid rgba(0,0,0,0.05); color: var(--text-main);">
+                            <i class="fa-solid fa-ranking-star"
+                                style="color: var(--accent-orange); margin-right: 8px;"></i>
+                            Leadership Tactics
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Right -->
+                <div class="col-6 animate-on-scroll fade-left delay-200"
+                    style="order: 1; @media(min-width: 768px){ order: 2; }">
+                    <div class="img-hover-zoom"
+                        style="border-radius: var(--radius-img); overflow: hidden; box-shadow: 0 16px 40px rgba(0,0,0,0.08);">
+                        <img src="assets/images/img_aedbc4f4.jpg"
+                            alt="Secondary Grade students participating in advanced science lab and global studies"
+                            class="aspect-4-3" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admission CTA Block -->
+        <section class="section"
+            style="background: var(--primary-green); padding: var(--space-6) 0; color: var(--white); text-align: center; position: relative;">
+            <!-- Delicate Pattern Overlay -->
+            <div
+                style="position: absolute; top:0; left:0; right:0; bottom:0; opacity: 0.05; background-image: radial-gradient(var(--white) 1px, transparent 1px); background-size: 20px 20px;">
+            </div>
+
+            <div class="container relative z-10">
+                <h2 class="hero-heading animate-on-scroll fade-down delay-100"
+                    style="color: var(--white); margin-bottom: var(--space-3); font-size: 40px; text-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+                    Begin Your Journey With Us</h2>
+                <p class="subheading animate-on-scroll fade-up delay-200"
+                    style="color: var(--white); max-width: 600px; margin: 0 auto var(--space-5) auto; font-weight: 400; opacity: 0.9;">
+                    Our admissions process is crafted to be as intuitive and seamless as possible. Secure your child
+                    seat
+                    for the upcoming academic year.
+                </p>
+                <div class="animate-on-scroll fade-up delay-300"
+                    style="display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn"
+                        style="background: var(--white); color: var(--primary-green); box-shadow: 0 10px 30px rgba(0,0,0,0.15); font-weight: 700;">Apply
+                        Now <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
+                    <a href="contact.html" class="btn btn-outline"
+                        style="border-color: rgba(255,255,255,0.3); color: var(--white);">Contact Admissions</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top grid">
+                <!-- Col 1: Brand Identity -->
+                <div class="col-3">
+                    <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom: var(--space-2);">
+                        <img src="assets/images/favicon.png" alt="Bushra Logo"
+                            style="height: 80px; object-fit: contain;">
+                        <h4 style="margin-bottom: 0; font-size: 18px; line-height:1.2; font-weight:800;">
+                            Bushra<br>Matriculation School</h4>
+                    </div>
+                    <p class="text-small" style="line-height:1.6; color: #94A3B8; margin-bottom: 0;">Empowering every child with wisdom
+                        and character through our skill-focused ELGA learning methodology.</p>
+
+                </div>
+                <!-- Col 2: Quick Navigation -->
+                <div class="col-3">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Explore More -->
+                <div class="col-3">
+                    <h4>Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html" style="color:var(--accent-yellow);">Apply Now</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4: Contact Info -->
+                <div class="col-3">
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact-list">
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="footer-contact-text">
+                                <span>No.29, Annai Theresa Nagar, Ikkadu Road, Tiruvallur - 602001</span>
+                            </div>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="footer-contact-text">
+                                <a href="tel:+919500519491">+91 95005 19491</a>
+                                <a href="tel:+919944231425" style="display: block; margin-top: 4px;">+91 99442 31425</a>
+                            </div>
+                        </div>
+                                                <div class="footer-contact-item">
+                            <div class="footer-contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="footer-contact-text">
+                                <a href="mailto:admissions@bushraedu.com">admissions@bushraedu.com</a>
+                                <a href="mailto:info@bushraedu.com" style="display: block; margin-top: 4px;">info@bushraedu.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/channel/UCnMpJBSJLvs_iEaozk465-Q" target="_blank"
+                            aria-label="YouTube" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://wa.me/919944231425" target="_blank" aria-label="WhatsApp" class="whatsapp"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/bushranurseryandprimaryschool" target="_blank"
+                            aria-label="Instagram" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p style="margin:0;">&copy; 2026 Bushra Matriculation School. All rights reserved.</p>
+                <p style="margin:0;"><span class="footer-credit">Designed by <a href="https://mrcodershub.com"
+                            target="_blank"
+                            style="color:var(--accent-yellow); text-decoration:none; font-weight:600; transition: color var(--transition-smooth);">MR
+                            CODERS HUB</a></span></p>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 768px) {
+                .footer-bottom {
+                    flex-direction: column;
+                    gap: 12px;
+                    text-align: center;
+                    justify-content: center;
+                }
+
+                .footer-top.grid {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 32px;
+                }
+
+                .footer-top h4::after {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                .footer-top .col-3 {
+                    width: 100% !important;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .footer-top .col-3>div:first-child {
+                    justify-content: center;
+                }
+
+                .footer-links span {
+                    justify-content: center;
+                    text-align: center;
+                }
+
+                .footer-links {
+                    text-align: center;
+                }
+
+                .footer-links a:hover {
+                    padding-left: 0;
+                    transform: translateY(-2px);
+                }
+
+                .footer-links a::before {
+                    display: none;
+                }
+
+                .social-icons {
+                    justify-content: center;
+                }
+
+                .footer-brand-divider {
+                    margin: 16px auto;
+                }
+            }
+        </style>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919944231425?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20Bushra%20Nursery%20and%20Primary%20School"
+        class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Enquiry - Bushra Matriculation School</title>
+    <meta name="description"
+        content="Start your child's journey with Bushra Matriculation School. Fill out the admission form today.">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <style>
+        .form-section-title {
+            font-size: 22px;
+            margin-bottom: var(--space-3);
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            color: var(--primary-green);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sticky-sidebar {
+            position: sticky;
+            top: 120px;
+        }
+
+        .custom-file-upload {
+            border: 2px dashed rgba(0, 0, 0, 0.1);
+            border-radius: var(--radius-btn);
+            padding: var(--space-4);
+            text-align: center;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            background: rgba(255, 255, 255, 0.5);
+            width: 100%;
+        }
+
+        .custom-file-upload:hover {
+            border-color: var(--primary-green);
+            background: rgba(30, 142, 90, 0.05);
+        }
+
+        .custom-file-upload input[type="file"] {
+            display: none;
+        }
+
+        .custom-file-upload i {
+            font-size: 32px;
+            color: var(--primary-green);
+            margin-bottom: 10px;
+        }
+
+        .consent-checkbox {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-top: var(--space-4);
+        }
+
+        .consent-checkbox input[type="checkbox"] {
+            width: 22px;
+            height: 22px;
+            border-radius: 4px;
+            accent-color: var(--primary-green);
+            flex-shrink: 0;
+            margin-top: 2px;
+            cursor: pointer;
+        }
+
+        .consent-checkbox label {
+            font-size: var(--text-small);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            cursor: pointer;
+        }
+
+        select.form-input {
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            background-size: 16px;
+            padding-right: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-container">
+                <img src="assets/images/favicon.png" alt="Bushra School Logo">
+                <span class="logo-text">Bushra<br><span class="text-small text-secondary"
+                        style="font-size: 10px; line-height: 1;">Matriculation School</span></span>
+            </a>
+            <nav class="nav-menu desktop-only">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+                <li><a href="activities.html" class="nav-link">Activities</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </nav>
+            <div class="header-cta desktop-only">
+                <a href="admissions.html" class="btn btn-primary active">Apply Now</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+        <nav class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="programs.html" class="nav-link">Programs</a></li>
+            <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+            <li><a href="activities.html" class="nav-link">Activities</a></li>
+            <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </nav>
+        <a href="admissions.html" class="btn btn-primary active" style="width: 100%; margin-top:20px;">Apply Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="section hero-parallax"
+        style="position: relative; z-index: 1; overflow: hidden; padding-top: 120px; padding-bottom: var(--space-4); background: var(--grad-primary); color: var(--white); text-align: center;">
+        <div class="bg-pattern"
+            style="position: absolute; top:0; left:0; width:100%; height:100%; z-index: 0; opacity: 0.15; animation: float 15s linear infinite;">
+        </div>
+
+        <div class="container relative z-10">
+            <div class="badge animate-on-scroll fade-down"
+                style="margin-bottom: var(--space-3); background: rgba(255,255,255,0.1); color: var(--white); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(4px);">
+                Join Our School</div>
+            <h1 class="hero-heading animate-on-scroll fade-up delay-100"
+                style="color: var(--white); margin-bottom: var(--space-3); font-weight: 800; text-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+                Admissions & Enquiry</h1>
+            <p class="subheading animate-on-scroll fade-up delay-200"
+                style="max-width: 700px; margin: 0 auto; color: var(--white); font-weight: 400; opacity: 0.95;">
+                Start your childâ„¢s wonderful journey with Bushra Matriculation School. Fill out the comprehensive form
+                below, and our dedicated admissions team will promptly contact you.
+            </p>
+        </div>
+    </section>
+
+    <!-- Admission Area -->
+    <section class="section section-bg-light" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+        <div class="container">
+
+            <div class="row" style="row-gap: var(--space-5);">
+
+                <!-- Left: Mega Form (70%) -->
+                <div class="col" style="width: 100%; @media(min-width: 992px){width: 65%;}">
+                    <div class="card animate-on-scroll fade-right delay-100"
+                        style="padding: clamp(24px, 4vw, 48px); background: var(--white);">
+
+                        <form id="admissionForm">
+                            <!-- Section 1: Student Information -->
+                            <div class="form-part mb-5" style="margin-bottom: var(--space-5);">
+                                <h3 class="form-section-title"><i class="fa-solid fa-user-graduate"></i> Student
+                                    Information</h3>
+                                <div class="grid-2">
+                                    <div class="form-group" style="grid-column: span 2;">
+                                        <input type="text" id="student_name" class="form-control form-input"
+                                            placeholder=" " required>
+                                        <label for="student_name" class="form-label">Student Full Name *</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="date" id="dob" class="form-control form-input" required
+                                            style="padding-top: 24px;">
+                                        <label for="dob" class="form-label"
+                                            style="transform: translateY(-10px) scale(0.75); font-weight: 600;">Date of
+                                            Birth *</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <select id="gender" class="form-control form-input" required>
+                                            <option value="" disabled selected></option>
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                        <label for="gender" class="form-label">Gender *</label>
+                                    </div>
+
+                                    <div class="form-group" style="grid-column: span 2;">
+                                        <select id="class" class="form-control form-input" required>
+                                            <option value="" disabled selected></option>
+                                            <option value="nursery">Pre-KG / Nursery</option>
+                                            <option value="lkg">LKG</option>
+                                            <option value="ukg">UKG</option>
+                                            <option value="grade_1">Grade 1</option>
+                                            <option value="grade_2">Grade 2</option>
+                                            <option value="grade_3">Grade 3</option>
+                                            <option value="grade_4">Grade 4</option>
+                                            <option value="grade_5">Grade 5</option>
+                                            <option value="grade_6">Grade 6</option>
+                                            <option value="grade_7">Grade 7</option>
+                                            <option value="grade_8">Grade 8</option>
+                                        </select>
+                                        <label for="class" class="form-label">Class Applying For *</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Section 2: Parent/Guardian Details -->
+                            <div class="form-part mb-5" style="margin-bottom: var(--space-5);">
+                                <h3 class="form-section-title"><i class="fa-solid fa-users"></i> Parent / Guardian
+                                    Details</h3>
+                                <div class="grid-2">
+                                    <div class="form-group" style="grid-column: span 2;">
+                                        <input type="text" id="parent_name" class="form-control form-input"
+                                            placeholder=" " required>
+                                        <label for="parent_name" class="form-label">Parent / Guardian Name *</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="tel" id="parent_phone" class="form-control form-input"
+                                            placeholder=" " required>
+                                        <label for="parent_phone" class="form-label">Phone Number *</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="email" id="parent_email" class="form-control form-input"
+                                            placeholder=" " required>
+                                        <label for="parent_email" class="form-label">Email Address *</label>
+                                    </div>
+
+                                    <div class="form-group" style="grid-column: span 2;">
+                                        <input type="text" id="occupation" class="form-control form-input"
+                                            placeholder=" ">
+                                        <label for="occupation" class="form-label">Occupation</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Section 3: Residential Address -->
+                            <div class="form-part mb-5" style="margin-bottom: var(--space-5);">
+                                <h3 class="form-section-title"><i class="fa-solid fa-house-chimney"></i> Residential
+                                    Address</h3>
+                                <div class="grid-2">
+                                    <div class="form-group" style="grid-column: span 2;">
+                                        <input type="text" id="street" class="form-control form-input" placeholder=" "
+                                            required>
+                                        <label for="street" class="form-label">Street Address *</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" id="city" class="form-control form-input" placeholder=" "
+                                            required>
+                                        <label for="city" class="form-label">City *</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" id="state" class="form-control form-input" placeholder=" "
+                                            required>
+                                        <label for="state" class="form-label">State / Region *</label>
+                                    </div>
+
+                                    <div class="form-group" style="grid-column: span 2;">
+                                        <input type="text" id="postal" class="form-control form-input" placeholder=" "
+                                            required>
+                                        <label for="postal" class="form-label">Postal / ZIP Code *</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Section 4: Additional Information -->
+                            <div class="form-part mb-5" style="margin-bottom: var(--space-4);">
+                                <h3 class="form-section-title"><i class="fa-solid fa-clipboard-list"></i> Additional
+                                    Details (Optional)</h3>
+                                <div class="grid-2">
+                                    <div class="form-group" style="grid-column: span 2;">
+                                        <input type="text" id="prev_school" class="form-control form-input"
+                                            placeholder=" ">
+                                        <label for="prev_school" class="form-label">Previous School Name (If
+                                            applicable)</label>
+                                    </div>
+
+                                    <!-- File Uploads -->
+                                    <div
+                                        style="grid-column: span 2; display: flex; flex-direction: column; gap: 16px; margin-bottom: var(--space-3);">
+                                        <label class="custom-file-upload">
+                                            <input type="file" id="birth_cert">
+                                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                                            <h5 style="margin-bottom: 4px; font-size: 16px;">Upload Birth Certificate
+                                            </h5>
+                                            <p class="text-small text-secondary" style="margin: 0;">PDF, JPG, PNG (Max
+                                                5MB)</p>
+                                        </label>
+                                        <label class="custom-file-upload">
+                                            <input type="file" id="report_card">
+                                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                                            <h5 style="margin-bottom: 4px; font-size: 16px;">Upload Previous School
+                                                Report</h5>
+                                            <p class="text-small text-secondary" style="margin: 0;">PDF, JPG, PNG (Max
+                                                5MB)</p>
+                                        </label>
+                                    </div>
+
+                                    <div class="form-group" style="grid-column: span 2;">
+                                        <textarea id="notes" class="form-control form-input" rows="4"
+                                            placeholder=" "></textarea>
+                                        <label for="notes" class="form-label">Special Notes / Questions</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Consent & Push -->
+                            <div class="consent-checkbox">
+                                <input type="checkbox" id="consent" required>
+                                <label for="consent">I genuinely agree to be fully contacted by Bushra Matriculation
+                                    School strictly regarding admission information via email or phone.</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary"
+                                style="margin-top: var(--space-4); width: 100%; justify-content: center; padding: 20px 24px;">Submit
+                                Admission Enquiry <i class="fa-solid fa-arrow-right-to-bracket"
+                                    style="margin-left: 8px;"></i></button>
+
+                            <div id="formSuccessMessage"
+                                style="display: none; color: var(--primary-green); margin-top: 20px; text-align: center; padding: 20px; background: rgba(30,142,90,0.1); border-radius: var(--radius-btn); border: 1px solid rgba(30,142,90,0.2);">
+                                <i class="fa-solid fa-circle-check" style="font-size: 32px; margin-bottom: 12px;"></i>
+                                <h4 style="margin-bottom: 8px; font-size: 20px;">Thank you for your enquiry.</h4>
+                                <p style="margin: 0; color: var(--secondary-blue);">Our dedicated admissions team will
+                                    eagerly contact you shortly.</p>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+                <!-- Right: Admission Sidebar (35%) -->
+                <div class="col" style="width: 100%; @media(min-width: 992px){width: 35%;}">
+                    <div class="sticky-sidebar animate-on-scroll fade-left delay-200">
+
+                        <!-- Support Panel -->
+                        <div class="card"
+                            style="padding: var(--space-4); background: linear-gradient(135deg, var(--secondary-blue) 0%, #172a5a 100%); color: var(--white); border: none; box-shadow: 0 20px 50px rgba(10,17,40,0.2);">
+                            <div class="icon-container"
+                                style="background: rgba(255,255,255,0.1); color: var(--accent-yellow); width: 60px; height: 60px; font-size: 24px; border-radius: 16px; margin-bottom: var(--space-3);">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+
+                            <h3 style="color: var(--white); margin-bottom: 12px; font-size: 24px;">Admission Support
+                            </h3>
+                            <p
+                                style="color: rgba(255,255,255,0.8); line-height: 1.6; margin-bottom: var(--space-4); font-size: var(--text-small);">
+                                If you have any serious questions regarding the rigorous admissions process, inherently
+                                feel free to promptly contact our extremely supportive admissions office directly.
+                            </p>
+
+                            <div style="margin-bottom: var(--space-3);">
+                                <h5
+                                    style="color: var(--accent-yellow); font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+                                    Phone Numbers</h5>
+                                <p style="font-size: 16px; font-weight: 500;">+91 95005 19491</p>
+                                <p style="font-size: 16px; font-weight: 500;">+91 99442 31425</p>
+                            </div>
+
+                            <div style="margin-bottom: var(--space-4);">
+                                <h5
+                                    style="color: var(--accent-yellow); font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+                                    Email Address</h5>
+                                <a href="mailto:admissions@bushraedu.com"
+                                    style="color: var(--white); text-decoration: none; font-size: 16px; font-weight: 500; transition: color var(--transition-fast);">admissions@bushraedu.com</a>
+                            </div>
+
+                            <a href="tel:+919500519491" class="btn"
+                                style="background: var(--white); color: var(--secondary-blue); width: 100%; border-radius: var(--radius-btn); padding: 14px; font-size: 15px;">Call
+                                Admissions Office <i class="fa-solid fa-phone" style="margin-left: 8px;"></i></a>
+                        </div>
+
+                        <!-- Mini FAQ -->
+                        <div class="card" style="margin-top: var(--space-4); padding: var(--space-4);">
+                            <h4
+                                style="font-size: 18px; margin-bottom: var(--space-3); display: flex; align-items: center; gap: 8px;">
+                                <i class="fa-regular fa-circle-question" style="color: var(--primary-green);"></i> Next
+                                Steps
+                            </h4>
+                            <ul class="feature-list" style="font-size: var(--text-small);">
+                                <li style="margin-bottom: 12px;"><i class="fa-solid fa-check"></i> <strong>Submit
+                                        Form:</strong> Complete the rigorous required details above.</li>
+                                <li style="margin-bottom: 12px;"><i class="fa-solid fa-check"></i>
+                                    <strong>Verification:</strong> Our team strictly verifies your specific application
+                                    context.
+                                </li>
+                                <li style="margin-bottom: 12px;"><i class="fa-solid fa-check"></i> <strong>Call
+                                        Back:</strong> You will inherently receive a scheduled phone inquiry call.</li>
+                                <li><i class="fa-solid fa-check"></i> <strong>Campus Visit:</strong> Confirmed parents
+                                    are cordially invited for the detailed campus tour physically.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top grid">
+                <!-- Col 1: Brand Identity -->
+                <div class="col-3">
+                    <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom: var(--space-2);">
+                        <img src="assets/images/favicon.png" alt="Bushra Logo"
+                            style="height: 80px; object-fit: contain;">
+                        <h4 style="margin-bottom: 0; font-size: 18px; line-height:1.2; font-weight:700;">
+                            Bushra<br>Matriculation School</h4>
+                    </div>
+                    <div class="footer-brand-divider"></div>
+                    <p class="text-small" style="line-height:1.6; margin-bottom:0;">Empowering every child with wisdom
+                        and character through our skill-focused ELGA learning methodology.</p>
+                </div>
+                <!-- Col 2: Quick Navigation -->
+                <div class="col-3">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Explore More -->
+                <div class="col-3">
+                    <h4>Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="admissions.html" style="color:var(--accent-yellow);">Apply Now</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4: Contact Info -->
+                <div class="col-3">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-links" style="margin-bottom: var(--space-2);">
+                        <li><span
+                                style="pointer-events: none; display:flex; gap:10px; align-items:flex-start; color:#94a3b8; font-size:var(--text-small);"><i
+                                    class="fa-solid fa-location-dot"
+                                    style="margin-top:4px; color: var(--primary-green);"></i> No.29, Annai Theresa
+                                Nagar,<br>Ikkadu Road, Tiruvallur â€œ 602001</span></li>
+                        <li><a href="tel:+919500519491" style="font-size:var(--text-small); text-decoration:none;"><i class="fa-solid fa-phone" style="margin-right: 10px; color: var(--primary-green);"></i> +91 95005 19491</a></li>
+                        <li><a href="tel:+919944231425" style="font-size:var(--text-small); text-decoration:none;"><i class="fa-solid fa-phone" style="margin-right: 10px; color: var(--primary-green);"></i> +91 99442 31425</a></li>
+                    </ul>
+                                                            <div class="social-icons">
+                        <a href="https://www.youtube.com/channel/UCnMpJBSJLvs_iEaozk465-Q" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://wa.me/919944231425" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/bushranurseryandprimaryschool" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p style="margin:0;">&copy; 2026 Bushra Matriculation School. All rights reserved.</p>
+                <p style="margin:0;"><span class="footer-credit">Designed by <a href="https://mrcodershub.com"
+                            target="_blank"
+                            style="color:var(--accent-yellow); text-decoration:none; font-weight:600; transition: color var(--transition-smooth);">MR
+                            CODERS HUB</a></span></p>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 768px) {
+                .footer-bottom {
+                    flex-direction: column;
+                    gap: 12px;
+                    text-align: center;
+                    justify-content: center;
+                }
+
+                .footer-top.grid {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 32px;
+                }
+
+                .footer-top h4::after {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                .footer-top .col-3 {
+                    width: 100% !important;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .footer-top .col-3>div:first-child {
+                    justify-content: center;
+                }
+
+                .footer-links span {
+                    justify-content: center;
+                    text-align: center;
+                }
+
+                .footer-links {
+                    text-align: center;
+                }
+
+                .footer-links a:hover {
+                    padding-left: 0;
+                    transform: translateY(-2px);
+                }
+
+                .footer-links a::before {
+                    display: none;
+                }
+
+                .social-icons {
+                    justify-content: center;
+                }
+
+                .footer-brand-divider {
+                    margin: 16px auto;
+                }
+            }
+        </style>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('admissionForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            const originalText = btn.innerHTML;
+            btn.innerText = 'Submitting Application...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                const formGroups = this.querySelectorAll('.form-group, .custom-file-upload, .consent-checkbox, .form-section-title');
+                formGroups.forEach(el => el.style.opacity = '0.3');
+
+                document.getElementById('formSuccessMessage').style.display = 'block';
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                this.reset();
+
+                setTimeout(() => {
+                    document.getElementById('formSuccessMessage').style.display = 'none';
+                    formGroups.forEach(el => el.style.opacity = '1');
+                }, 5000);
+            }, 1500);
+        });
+
+        // Small fix for Select inputs showing labels properly
+        const selects = document.querySelectorAll('select.form-input');
+        selects.forEach(select => {
+            select.addEventListener('change', function () {
+                if (this.value !== "") {
+                    this.parentElement.querySelector('label').style.transform = 'translateY(-10px) scale(0.75)';
+                    this.parentElement.querySelector('label').style.color = 'var(--primary-green)';
+                    this.parentElement.querySelector('label').style.fontWeight = '600';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+

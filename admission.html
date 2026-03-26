@@ -1,0 +1,534 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Bushra Nursery and Primary School</title>
+    <script src="assets/images/img_3fa48481.jpg"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#16a34a', // green-600
+                        secondary: '#0f172a',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-slate-50 font-inter">
+
+    <!-- Minimal Header -->
+    <header
+        class="fixed w-full z-50 h-20 flex items-center bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <nav class="w-full h-full flex items-center px-6 justify-between">
+            <a href="index.html" class="header-brand group flex items-center gap-3">
+                <img src="assets/images/favicon.png" alt="Bushra School Logo" class="brand-logo"
+                    style="height:52px;width:auto;object-fit:contain;display:block;flex-shrink:0;" loading="lazy">
+                <div class="brand-text-container flex flex-col justify-center" style="margin-left:0;">
+                    <span
+                        class="block text-green-900 font-bold text-xl font-outfit leading-tight tracking-tight group-hover:text-green-700 transition-colors"
+                        style="line-height:1.1;">Bushra School</span>
+                    <span class="block text-green-600 text-xs uppercase tracking-widest font-semibold"
+                        style="letter-spacing:0.08em;">Nursery & Primary</span>
+                </div>
+            </a>
+            <!-- Minimal header: No menu items, but maybe a home button for convenience -->
+            <div class="hidden sm:block">
+                <a href="index.html"
+                    class="text-slate-500 hover:text-green-600 font-medium transition-all flex items-center gap-2 whitespace-nowrap flex-shrink-0">
+                    <i class="fa-solid fa-house-chimney"></i> Back to Home
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Redesigned Hero Section -->
+    <section class="relative min-h-[85vh] flex items-center pt-40 pb-32 overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="assets/images/img_e316d270.jpg"
+                alt="Educational Environment" class="w-full h-full object-cover scale-105 animate-slow-zoom">
+            <div class="absolute inset-0 bg-gradient-to-b from-green-950/90 via-green-900/80 to-green-950/90"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <div
+                class="inline-block bg-white/10 backdrop-blur-md text-green-300 px-6 py-2 rounded-full font-bold text-sm uppercase tracking-widest mb-8 animate-fade-in border border-white/10">
+                Join our Excellence Journey
+            </div>
+            <h1
+                class="text-5xl md:text-7xl lg:text-8xl font-bold font-outfit text-white mb-6 leading-[1.1] tracking-tight">
+                Admissions 2025â€“26 <br class="hidden md:block"> <span class="text-green-400">Now Open</span>
+            </h1>
+            <p class="text-white/80 text-xl md:text-2xl max-w-4xl mx-auto mb-12 leading-relaxed font-light">
+                We are dedicated to providing a nurturing environment where every child discovers their unique
+                potential. Our holistic approach combines academic rigor with character building to shape the leaders of
+                tomorrow.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+                <a href="contact.html"
+                    class="w-full sm:w-auto bg-green-600 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-white hover:text-green-950 transition-all shadow-2xl hover:shadow-green-500/30 flex items-center justify-center gap-3">
+                    Apply Now <i class="fa-solid fa-arrow-right text-lg"></i>
+                </a>
+                <a href="contact.html"
+                    class="w-full sm:w-auto bg-white/5 backdrop-blur-md border border-white/20 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-white hover:text-green-950 transition-all flex items-center justify-center gap-3">
+                    Book a Campus Visit <i class="fa-solid fa-building-circle-check text-lg"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eligibility Criteria -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-[58%]">
+                    <h2 class="text-green-600 font-bold uppercase tracking-widest text-sm mb-4">Foundation</h2>
+                    <h3 class="text-4xl font-bold font-outfit text-slate-900 mb-8">Eligibility Criteria</h3>
+                    <p class="text-slate-600 mb-10 text-lg leading-relaxed">
+                        We maintain age-appropriate criteria to ensure students are placed in the right environment for
+                        their developmental stage.
+                    </p>
+                    <div class="space-y-6">
+                        <div
+                            class="flex items-center gap-6 p-6 bg-slate-50 rounded-2xl border border-slate-100 transition-all hover:bg-green-50 hover:border-green-200">
+                            <div
+                                class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-green-600 shadow-sm font-bold text-xl">
+                                LKG</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">4+ Years</h4>
+                                <p class="text-slate-500 text-sm">Age as on 31st March</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-center gap-6 p-6 bg-slate-50 rounded-2xl border border-slate-100 transition-all hover:bg-green-50 hover:border-green-200">
+                            <div
+                                class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-green-600 shadow-sm font-bold text-xl">
+                                UKG</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">5+ Years</h4>
+                                <p class="text-slate-500 text-sm">Age as on 31st March</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-center gap-6 p-6 bg-slate-50 rounded-2xl border border-slate-100 transition-all hover:bg-green-50 hover:border-green-200">
+                            <div
+                                class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-green-600 shadow-sm font-bold text-xl">
+                                Std 1</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">6+ Years</h4>
+                                <p class="text-slate-500 text-sm">Age as on 31st March</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-[42%] w-full">
+                    <div class="relative max-w-md lg:max-w-none mx-auto lg:mx-0">
+                        <img src="assets/images/img_828e85e4.jpg"
+                            alt="Students"
+                            class="rounded-[3rem] shadow-2xl relative z-10 w-full h-[300px] md:h-[400px] lg:h-[480px] object-cover">
+                        <div class="absolute -bottom-8 -right-8 w-full h-full bg-green-100 rounded-[3rem] -z-10">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Required Documents -->
+    <section class="py-20 bg-green-50/50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-green-600 font-bold uppercase tracking-widest text-sm mb-4">Checklist</h2>
+                <h3 class="text-4xl font-bold font-outfit text-slate-900">Required Documents</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Doc Card 1 -->
+                <div
+                    class="bg-white p-8 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-md transition-all">
+                    <div
+                        class="w-14 h-14 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                        <i class="fa-solid fa-cake-candles"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Birth Certificate</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">Original Birth Certificate issued by
+                        Corporation/Municipality/Panchayat along with a photocopy.</p>
+                </div>
+                <!-- Doc Card 2 -->
+                <div
+                    class="bg-white p-8 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-md transition-all">
+                    <div
+                        class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                        <i class="fa-solid fa-id-card"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Aadhaar Card</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">Copies of child's Aadhaar card. If child doesn't
+                        have one, parent's Aadhaar copy is required.</p>
+                </div>
+                <!-- Doc Card 3 -->
+                <div
+                    class="bg-white p-8 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-md transition-all">
+                    <div
+                        class="w-14 h-14 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                        <i class="fa-solid fa-camera"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Passport Photos</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">Recent passport-size photographs of the student (4
+                        copies) and parents (2 copies each).</p>
+                </div>
+                <!-- Doc Card 4 -->
+                <div
+                    class="bg-white p-8 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-md transition-all">
+                    <div
+                        class="w-14 h-14 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                        <i class="fa-solid fa-file-invoice"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Transfer Certificate (TC)</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">Original TC from the previous school (mandatory
+                        for Class 2 onwards) and counter-signed if required.</p>
+                </div>
+                <!-- Doc Card 5 -->
+                <div
+                    class="bg-white p-8 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-md transition-all">
+                    <div
+                        class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Address Proof</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">Ration Card / Voter ID / Passport / Latest
+                        Electricity or Landline Telephone Bill copy.</p>
+                </div>
+                <!-- Doc Card 6 -->
+                <div
+                    class="bg-white p-8 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-md transition-all">
+                    <div
+                        class="w-14 h-14 bg-rose-100 text-rose-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                        <i class="fa-solid fa-briefcase-medical"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-3">Community Certificate</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed">Photocopy of the Community Certificate issued by
+                        the competent authority (if applicable).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-green-600 font-bold uppercase tracking-widest text-sm mb-4">Step-by-Step</h2>
+                <h3 class="text-4xl font-bold font-outfit text-slate-900">Admission Process</h3>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-12">
+                <!-- Process Step 1 -->
+                <div class="flex flex-col md:flex-row gap-8 relative">
+                    <div class="md:w-16 flex-shrink-0 flex justify-center">
+                        <div
+                            class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl relative z-10 shadow-lg shadow-green-100">
+                            1</div>
+                        <div class="absolute top-12 bottom-0 left-[23px] w-0.5 bg-green-100 hidden md:block"></div>
+                    </div>
+                    <div class="bg-slate-50 p-8 rounded-[2.5rem] flex-grow border border-slate-100">
+                        <h4 class="text-2xl font-bold text-slate-900 mb-4 font-outfit">Enquiry & Registration</h4>
+                        <p class="text-slate-600 leading-relaxed">Visit our school office to collect the admission form
+                            or fill out the online enquiry form. Registration is the first step towards securing a seat.
+                        </p>
+                    </div>
+                </div>
+                <!-- Process Step 2 -->
+                <div class="flex flex-col md:flex-row gap-8 relative">
+                    <div class="md:w-16 flex-shrink-0 flex justify-center">
+                        <div
+                            class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl relative z-10 shadow-lg shadow-green-100">
+                            2</div>
+                        <div class="absolute top-12 bottom-0 left-[23px] w-0.5 bg-green-100 hidden md:block"></div>
+                    </div>
+                    <div class="bg-slate-50 p-8 rounded-[2.5rem] flex-grow border border-slate-100">
+                        <h4 class="text-2xl font-bold text-slate-900 mb-4 font-outfit">Document Submission</h4>
+                        <p class="text-slate-600 leading-relaxed">Submit the completed application form along with all
+                            the necessary documents mentioned in the checklist at the school office.</p>
+                    </div>
+                </div>
+                <!-- Process Step 3 -->
+                <div class="flex flex-col md:flex-row gap-8 relative">
+                    <div class="md:w-16 flex-shrink-0 flex justify-center">
+                        <div
+                            class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl relative z-10 shadow-lg shadow-green-100">
+                            3</div>
+                        <div class="absolute top-12 bottom-0 left-[23px] w-0.5 bg-green-100 hidden md:block"></div>
+                    </div>
+                    <div class="bg-slate-50 p-8 rounded-[2.5rem] flex-grow border border-slate-100">
+                        <h4 class="text-2xl font-bold text-slate-900 mb-4 font-outfit">Interactive Session</h4>
+                        <p class="text-slate-600 leading-relaxed">Students and parents will be invited for a friendly
+                            interactive session with the school authorities. This helps us understand the child's
+                            readiness.</p>
+                    </div>
+                </div>
+                <!-- Process Step 4 -->
+                <div class="flex flex-col md:flex-row gap-8 relative">
+                    <div class="md:w-16 flex-shrink-0 flex justify-center">
+                        <div
+                            class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl relative z-10 shadow-lg shadow-green-100">
+                            4</div>
+                    </div>
+                    <div
+                        class="bg-slate-50 p-8 rounded-[2.5rem] flex-grow border border-slate-100 transition-all hover:bg-green-600 hover:text-white group">
+                        <h4 class="text-2xl font-bold text-slate-900 mb-4 font-outfit group-hover:text-white">Admission
+                            Confirmation</h4>
+                        <p class="text-slate-600 leading-relaxed group-hover:text-green-50">Upon selection, complete the
+                            fee formalities to confirm admission. We welcome you to the Bushra School community!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates & Fee Structure -->
+    <section class="py-24 bg-green-50 relative overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <!-- Important Dates -->
+                <div>
+                    <div
+                        class="inline-block bg-white text-green-700 px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest mb-4">
+                        Timeline</div>
+                    <h3 class="text-4xl font-bold font-outfit text-slate-900 mb-10">Important Dates</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-6">
+                            <div class="w-20 pt-1 text-green-600 font-bold text-lg font-outfit">FEB 15</div>
+                            <div class="bg-white p-6 rounded-2xl flex-grow shadow-sm border border-slate-100">
+                                <h5 class="font-bold text-slate-900 mb-1">Applications Open</h5>
+                                <p class="text-slate-500 text-sm">Issue of application forms for all classes begins.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-6">
+                            <div class="w-20 pt-1 text-green-600 font-bold text-lg font-outfit">MAR 20</div>
+                            <div class="bg-white p-6 rounded-2xl flex-grow shadow-sm border border-slate-100">
+                                <h5 class="font-bold text-slate-900 mb-1">Interaction Rounds</h5>
+                                <p class="text-slate-500 text-sm">Main interactive sessions with parents and students.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-6">
+                            <div class="w-20 pt-1 text-green-600 font-bold text-lg font-outfit">JUN 01</div>
+                            <div class="bg-white p-6 rounded-2xl flex-grow shadow-sm border border-slate-100">
+                                <h5 class="font-bold text-slate-900 mb-1">Academic Year Begins</h5>
+                                <p class="text-slate-500 text-sm">Orientation and commencement of regular classes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fee Structure Summary -->
+                <div class="bg-white p-12 rounded-[3.5rem] shadow-xl border border-slate-100 self-start">
+                    <h3 class="text-3xl font-bold font-outfit text-slate-900 mb-6">Fee Structure Summary</h3>
+                    <p class="text-slate-500 mb-10 leading-relaxed">Our fee structure is transparent and value-focused.
+                        We offer flexible payment options to accommodate our families.</p>
+                    <ul class="space-y-6">
+                        <li class="flex justify-between items-center pb-6 border-b border-slate-50">
+                            <span class="text-slate-700 font-medium">Admission Registration (One-time)</span>
+                            <span class="text-green-600 font-bold font-outfit">Nominal</span>
+                        </li>
+                        <li class="flex justify-between items-center pb-6 border-b border-slate-50">
+                            <span class="text-slate-700 font-medium">Term Tuition Fees</span>
+                            <span class="text-green-600 font-bold font-outfit">Grade Wise</span>
+                        </li>
+                        <li class="flex justify-between items-center pb-6 border-b border-slate-50">
+                            <span class="text-slate-700 font-medium">Activity Fee (Annual)</span>
+                            <span class="text-green-600 font-bold font-outfit">Flat Rate</span>
+                        </li>
+                    </ul>
+                    <div class="mt-10 bg-green-50 p-6 rounded-2xl border border-green-100">
+                        <p class="text-green-700 text-sm italic">
+                            <i class="fa-solid fa-circle-info mr-2"></i> For the detailed class-wise fee breakup, please
+                            visit the school administration office.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact for Admissions -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-5xl mx-auto bg-slate-900 rounded-[4rem] text-white p-12 md:p-20 relative overflow-hidden">
+                <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
+                    <div class="md:w-1/2">
+                        <h2 class="text-4xl md:text-5xl font-bold font-outfit mb-6">Need Assistance?</h2>
+                        <p class="text-slate-400 text-lg mb-8 leading-relaxed">Our admissions team is here to help you
+                            with any queries regarding the process, criteria, or campus life.</p>
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-6">
+                                <div
+                                    class="w-12 h-12 bg-green-600 text-white rounded-2xl flex items-center justify-center text-xl shadow-lg shadow-green-600/20">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div>
+                                    <p class="text-slate-500 text-sm font-bold uppercase tracking-widest">Call Us</p>
+                                    <p class="text-xl font-bold">+91 98765 43210</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div
+                                    class="w-12 h-12 bg-green-600 text-white rounded-2xl flex items-center justify-center text-xl shadow-lg shadow-green-600/20">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <p class="text-slate-500 text-sm font-bold uppercase tracking-widest">Email Us</p>
+                                    <p class="text-xl font-bold">admission@bushraschool.edu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 w-full">
+                        <div
+                            class="bg-white/5 backdrop-blur-md p-8 md:p-12 rounded-[3rem] border border-white/10 text-center">
+                            <i class="fa-solid fa-location-dot text-4xl text-green-500 mb-6"></i>
+                            <h4 class="text-2xl font-bold font-outfit mb-4">Visit Our Campus</h4>
+                            <p class="text-slate-400 mb-8">BUSHRA NURSERY &amp; PRIMARY SCHOOL, No:29, 16th St, near
+                                dream india, ITI, Tiruvallur, Ikkadu, Tamil Nadu 602001</p>
+                            <a href="https://www.google.com/maps?q=BUSHRA+NURSERY+%26+PRIMARY+SCHOOL,+No:29,+16th+St,+near+dream+india,+ITI,+Tiruvallur,+Ikkadu,+Tamil+Nadu+602001"
+                                target="_blank"
+                                class="inline-block bg-white text-slate-900 px-8 py-3 rounded-xl font-bold hover:bg-green-500 hover:text-white transition-all">Get
+                                Directions</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Decor -->
+                <div class="absolute -top-20 -right-20 w-80 h-80 bg-green-600/10 rounded-full blur-3xl"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional CTA -->
+    <section class="py-24 bg-white border-t border-slate-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold font-outfit text-slate-900 mb-8">Secure Your Child's <span
+                    class="text-green-600">Future Today</span></h2>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+                <a href="contact.html"
+                    class="w-full sm:w-auto bg-green-600 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-green-700 transition-all shadow-xl hover:shadow-green-200">
+                    Apply Now
+                </a>
+                <a href="contact.html"
+                    class="w-full sm:w-auto border-2 border-slate-200 text-slate-600 px-12 py-5 rounded-2xl font-bold text-xl hover:border-green-600 hover:text-green-600 transition-all">
+                    Book a Campus Visit
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-20 border-t border-slate-800">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- School Info -->
+                <div class="space-y-6">
+                    <a href="index.html" class="flex items-center gap-3">
+                        <img src="assets/images/img_4c03255e.png"
+                            alt="Bushra School Logo" class="h-12 brightness-0 invert opacity-80">
+                        <span class="text-white font-bold text-xl font-outfit">Bushra School</span>
+                    </a>
+                    <p class="text-slate-500 leading-relaxed">
+                        Nurturing the next generation with values, knowledge, and discipline since our foundation.
+                        Providing high-quality education from Nursery to Grade 5.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" title="Follow us on Facebook"
+                            class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-green-600 hover:text-white transition-all"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" title="Follow us on Instagram"
+                            class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-green-600 hover:text-white transition-all"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#" title="Connect with us on WhatsApp"
+                            class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-green-600 hover:text-white transition-all"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h5 class="text-white font-bold text-lg mb-6">Quick Links</h5>
+                    <ul class="space-y-4">
+                        <li><a href="index.html" class="hover:text-green-500 transition-all flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-right text-[10px]"></i> Home</a></li>
+                        <li><a href="about.html" class="hover:text-green-500 transition-all flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-right text-[10px]"></i> About Us</a></li>
+                        <li><a href="programs.html"
+                                class="hover:text-green-500 transition-all flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-right text-[10px]"></i> Programs</a></li>
+                        <li><a href="admission.html"
+                                class="hover:text-green-500 transition-all flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-right text-[10px]"></i> Admissions</a></li>
+                        <li><a href="contact.html"
+                                class="hover:text-green-500 transition-all flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-right text-[10px]"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h5 class="text-white font-bold text-lg mb-6">Get in Touch</h5>
+                    <ul class="space-y-4">
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-green-500"></i>
+                            <span>Thiruvallur, Tamil Nadu, India</span>
+                        </li>
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-phone mt-1 text-green-500"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-envelope mt-1 text-green-500"></i>
+                            <span>info@bushraschool.edu</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Institutional Value -->
+                <div>
+                    <h5 class="text-white font-bold text-lg mb-6">Our Philosophy</h5>
+                    <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-800 shadow-inner">
+                        <p class="text-sm italic text-slate-400">
+                            "Focus on discipline, character building, and conceptual learning to shape the future of
+                            every child with care."
+                        </p>
+                    </div>
+                    <div class="mt-6 flex items-center gap-3">
+                        <div class="w-12 h-1 bg-green-600 rounded-full"></div>
+                        <span class="text-xs uppercase tracking-widest font-bold text-green-500">Est. 2011</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 text-center text-sm">
+                <p>&copy; 2024 Bushra Nursery and Primary School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919944231425?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20Bushra%20Nursery%20and%20Primary%20School" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
